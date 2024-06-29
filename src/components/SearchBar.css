@@ -1,0 +1,31 @@
+.poke--search {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.poke--search input {
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+
+.poke--search button {
+    padding:10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.search-bar button:hover {
+    background-color: #0056b3;
+  }

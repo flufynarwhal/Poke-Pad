@@ -44,3 +44,34 @@
 a {
   cursor: pointer
 }
+
+.poke {
+  display: flex;
+  flex-direction: row;
+}
+
+.poke--display{
+  text-align: center;
+  margin: 20px 0;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.images img{
+  flex-grow: 1;
+  width: 100%;
+  height: auto;
+}
+
+.poke--button {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 10px;
+}
+

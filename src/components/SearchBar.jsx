@@ -10,11 +10,9 @@ const SearchBar = ({ onSearch }) => {
     const handleSearch = () => {
         onSearch(query)
     }
-
-    
-    
+   
     return (
-        <div>
+        <div className='poke--search'>
             <input 
                 type="text" 
                 value={query}
@@ -23,7 +21,8 @@ const SearchBar = ({ onSearch }) => {
             />
             <button
                 onClick={handleSearch}
-            >Search</button>
+                >Search
+            </button>
         </div>
     )
 
